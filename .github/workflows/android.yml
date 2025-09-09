@@ -15,7 +15,7 @@ jobs:
 
     env:
       # Fija una versión de Flutter estable para builds reproducibles.
-      FLUTTER_VERSION: "3.22.2"
+      FLUTTER_VERSION: "3.35.3"
 
     steps:
       - name: Checkout
