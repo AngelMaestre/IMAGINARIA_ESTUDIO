@@ -1,0 +1,73 @@
+name: imaginaria_estudio
+description: Starter nativo Flutter para IMAGINARIA ESTUDIO (Android listo; iOS listo para generar).
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  # WebView (seguimos con 4.x que ya probaste)
+  webview_flutter: ^4.13.0
+  webview_flutter_android: ^4.10.1
+  webview_flutter_wkwebview: ^3.13.0
+
+  # Firebase (rama 2.x/4.x/14.x más conservadora y muy estable)
+  firebase_core: ^2.25.5
+  firebase_auth: ^4.17.9
+  firebase_messaging: ^14.9.4
+
+  # Notificaciones locales (probada con las ramas anteriores)
+  flutter_local_notifications: ^17.1.2
+
+  # Compartir y links
+  share_plus: ^8.0.3
+  url_launcher: ^6.2.6
+
+  # === Las 3 que faltaban en tu build ===
+  shared_preferences: ^2.2.3
+  cached_network_image: ^3.3.1
+  connectivity_plus: ^5.0.2
+
+  # Utilidades
+  intl: ^0.19.0
+  package_info_plus: ^8.0.0
+  path_provider: ^2.1.3
+  # para escoger archivos del dispositivo
+  file_picker: ^8.0.3
+  # para subir por HTTP multipart si lo necesitas
+  http: ^1.2.2
+flutter:
+  uses-material-design: true
+  assets:
+    #- assets/logo.png
+    - assets/icons/
+    - assets/splash/
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.1
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/app_icon_1024.png"
+  adaptive_icon_background: "#111827"   # fondo oscuro
+  # Si en el futuro quieres foreground específico: adaptive_icon_foreground: assets/icons/app_icon_fore.png
+
+flutter_native_splash:
+  color: "#111827"                  # fondo splash
+  image: assets/splash/splash_logo_512.png     # logo centrado
+  android_12:
+    image: assets/splash/splash_logo_512.png
+    icon_background_color: "#111827"
+  android_gravity: center
+  ios_content_mode: center
+  web: false

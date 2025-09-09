@@ -1,0 +1,1 @@
+G:\imaginaria_estudio_flutter_starter_v1\IMAGINARIA_ESTUDIO\android\app\src\main\kotlin\com\imaginaria\imaginaria_estudio\MainActivity.kt

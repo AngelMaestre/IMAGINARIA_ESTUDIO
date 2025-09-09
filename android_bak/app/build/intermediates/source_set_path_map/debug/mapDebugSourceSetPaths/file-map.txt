@@ -1,0 +1,7 @@
+com.imaginaria.imaginaria_estudio.app-pngs-0 G:\imaginaria_estudio_flutter_starter_v1\IMAGINARIA_ESTUDIO\android\app\build\generated\res\pngs\debug
+com.imaginaria.imaginaria_estudio.app-resValues-1 G:\imaginaria_estudio_flutter_starter_v1\IMAGINARIA_ESTUDIO\android\app\build\generated\res\resValues\debug
+com.imaginaria.imaginaria_estudio.app-packageDebugResources-2 G:\imaginaria_estudio_flutter_starter_v1\IMAGINARIA_ESTUDIO\android\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.imaginaria.imaginaria_estudio.app-packageDebugResources-3 G:\imaginaria_estudio_flutter_starter_v1\IMAGINARIA_ESTUDIO\android\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.imaginaria.imaginaria_estudio.app-debug-4 G:\imaginaria_estudio_flutter_starter_v1\IMAGINARIA_ESTUDIO\android\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.imaginaria.imaginaria_estudio.app-debug-5 G:\imaginaria_estudio_flutter_starter_v1\IMAGINARIA_ESTUDIO\android\app\src\debug\res
+com.imaginaria.imaginaria_estudio.app-main-6 G:\imaginaria_estudio_flutter_starter_v1\IMAGINARIA_ESTUDIO\android\app\src\main\res

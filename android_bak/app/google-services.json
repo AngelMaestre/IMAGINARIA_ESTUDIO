@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1081461024402",
+    "project_id": "app-android-6b3c4",
+    "storage_bucket": "app-android-6b3c4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081461024402:android:7edafdbbc6f8206c79284b",
+        "android_client_info": {
+          "package_name": "com.imaginaria.imaginaria_estudio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChWdGAMPROGpr7oPs792Pe7K7b5kevqBo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
