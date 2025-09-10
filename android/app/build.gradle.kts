@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "tu.paquete" // el tuyo
+    namespace = "com.imaginaria.imaginaria_estudio" // el tuyo
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "tu.paquete" // el tuyo
+        applicationId = "com.imaginaria.imaginaria_estudio" // el tuyo
         minSdk = flutter.minSdkVersion
         targetSdk = 34
         versionCode = 1
