@@ -7,7 +7,11 @@ require(flutterSdk.isNotBlank()) { "Missing flutter.sdk in local.properties" }
 
 // Asegura que Gradle pueda “ver” el plugin de Flutter
 pluginManagement {
-    includeBuild("$flutterSdk/packages/flutter_tools/gradle")
+    includeBuild("flutter.sdk=/opt/hostedtoolcache/flutter/stable-3.35.3-x64" >
+
+Skip to content
+Navigation Menu
+")
     repositories {
         google()
         mavenCentral()
